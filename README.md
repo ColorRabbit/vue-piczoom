@@ -7,12 +7,12 @@
 
 ``` bash
 # 安装 install
-npm install vue-piczoom --save
+npm install xiyu-piczoom --save
 ```
 ``` bash
 # 使用 use
 --script
-import PicZoom from 'vue-piczoom'
+import PicZoom from 'xiyu-piczoom'
 export default {
   name: 'App',
   components: {
@@ -28,9 +28,9 @@ props | describe | default
 ----|------|----
 url | 图片地址  | string required
 big-url | 大图地址 | string null
-scale | 图片放大倍数  | number 2.5 
-scroll | 放大时页面是否可滚动  | boolean fasle 
-show-edit | 是否显示旋转图片按钮  | boolean fasle 
+scale | 图片放大倍数  | number 2.5
+scroll | 放大时页面是否可滚动  | boolean fasle
+show-edit | 是否显示旋转图片按钮  | boolean fasle
 
 ### Suggest 注意事项
 组件默认是100%的高宽，所以建议将组件包含在一个有固定高宽的容器内。如：
